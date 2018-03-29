@@ -12,6 +12,7 @@ tbody tr:nth-child(odd) {
 
 table {
   border: none;
+  min-width: 50em;
 }
 
 .year {
@@ -24,10 +25,6 @@ table {
 
 .notes {
   width: 16em;
-}
-
-table {
-  min-width: 50em;
 }
 
 @media only screen and (min-width: 60em) {
